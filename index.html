@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="name" name="name">
+    </div>
+    <div>
+      <button id="run" onclick="inbreedingCalculator.loopFinderOuter(document.getElementById('name').value)">
+        Calculate
+      </button>
+    </div>
+    <div>
+      <button id="runAll" onclick="inbreedingCalculator.runAll()">
+        Calculate All
+      </button>
+    </div>
+    <div id="result">      
+    </div>
+    
+    
+    <button id="gen" onclick="inbreedingCalculator.gen()" >GEN</button>
+   <div id="code">  
+   </div> 
+    
+  </body>
+</html>
